@@ -1,6 +1,6 @@
 
-import { Navbar } from "../components/page";
-import { Footer } from "../components/page";
+import { Header, Navbar ,Footer } from "../components";
+
  
  function Mainlayout({
   children, 
@@ -9,6 +9,7 @@ import { Footer } from "../components/page";
 }) {
   return (
     <>
+    <Header/>
     <Navbar/>
     {children}
     <Footer/>
