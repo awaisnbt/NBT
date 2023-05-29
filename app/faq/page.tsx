@@ -1,12 +1,18 @@
 "use client"
 import React from 'react'
+import Mainlayout from '../Layouts/mainLayout'
+
 
 const page = () => {
   return (
-    <div>
-      Faq
-    </div>
-  )
+    <Mainlayout>
+      <div>
+       Faq
+      </div>
+    </Mainlayout>
+    )
+
+
 }
 
 export default page

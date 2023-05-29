@@ -7,7 +7,7 @@ const page = () => {
   return (
     <Mainlayout>
       <div>
-        contact
+        portfolio
       </div>
     </Mainlayout>
     )
